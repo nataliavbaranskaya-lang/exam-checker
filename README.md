@@ -1,8 +1,12 @@
 # Exam Checker
 
-Private portfolio project — a **desktop grading app** for handwritten English exam answer sheets.
+Portfolio project — a **desktop grading app** for handwritten English exam answer sheets.
 
 Built with **Python** and **Streamlit**. Demonstrates a full workflow: upload scans and answer key → transcribe answers → review disputes → score → export filled Excel report.
+
+## Demo video
+
+Short overview (~40s): [docs/Exam_Checker_Demo.mp4](docs/Exam_Checker_Demo.mp4)
 
 ## Highlights (for recruiters)
 
