@@ -1,0 +1,24 @@
+{
+  "title": "Level A — Elementary",
+  "level_code": "level_35",
+  "question_count": 35,
+  "sections": [
+    {"id": "part1", "label": "Listening", "from_q": 1, "to_q": 15},
+    {"id": "part2", "label": "Reading", "from_q": 16, "to_q": 25},
+    {"id": "part3", "label": "Grammar & vocabulary", "from_q": 26, "to_q": 35}
+  ],
+  "grade_fail_below": 19,
+  "grade_pass_plus_from": 28,
+  "excel": {
+    "start_row": 11,
+    "columns": [
+      {"col": 0, "type": "name"},
+      {"col": 1, "type": "section", "section": "part1"},
+      {"col": 2, "type": "section", "section": "part2"},
+      {"col": 3, "type": "section", "section": "part3"},
+      {"col": 4, "type": "empty"},
+      {"col": 5, "type": "total_formula", "formula": "SUM(B{row}:E{row})"},
+      {"col": 6, "type": "grade_formula", "formula": "IF(ISBLANK(F{row}),\"\",IF(F{row}<19,\"Fail\",IF(F{row}<28,\"Pass\",\"Pass +\")))"}
+    ]
+  }
+}

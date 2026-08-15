@@ -1,0 +1,24 @@
+{
+  "title": "Level B — Pre-Intermediate",
+  "level_code": "level_45",
+  "question_count": 45,
+  "sections": [
+    {"id": "listening", "label": "Listening", "from_q": 1, "to_q": 20},
+    {"id": "reading", "label": "Reading", "from_q": 21, "to_q": 29},
+    {"id": "uoe", "label": "Grammar & vocabulary", "from_q": 30, "to_q": 45}
+  ],
+  "grade_fail_below": 30,
+  "grade_pass_plus_from": 44,
+  "excel": {
+    "start_row": 11,
+    "columns": [
+      {"col": 0, "type": "name"},
+      {"col": 1, "type": "section", "section": "listening"},
+      {"col": 2, "type": "section", "section": "reading"},
+      {"col": 3, "type": "section", "section": "uoe"},
+      {"col": 4, "type": "empty"},
+      {"col": 5, "type": "total_formula", "formula": "SUM(B{row}:E{row})"},
+      {"col": 6, "type": "grade_formula", "formula": "IF(ISBLANK(F{row}),\"\",IF(F{row}<30,\"Fail\",IF(F{row}<=43,\"Pass\",\"Pass +\")))"}
+    ]
+  }
+}

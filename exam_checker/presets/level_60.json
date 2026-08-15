@@ -1,0 +1,25 @@
+{
+  "title": "Level C — Intermediate",
+  "level_code": "level_60",
+  "question_count": 60,
+  "sections": [
+    {"id": "listening", "label": "Listening", "from_q": 1, "to_q": 20},
+    {"id": "reading", "label": "Reading", "from_q": 21, "to_q": 40},
+    {"id": "uoe", "label": "Grammar & vocabulary", "from_q": 41, "to_q": 60}
+  ],
+  "grade_fail_below": 44,
+  "grade_pass_plus_from": 64,
+  "excel": {
+    "start_row": 11,
+    "style_profile": "default",
+    "columns": [
+      {"col": 0, "type": "name"},
+      {"col": 1, "type": "section", "section": "listening"},
+      {"col": 2, "type": "section", "section": "reading"},
+      {"col": 3, "type": "section", "section": "uoe"},
+      {"col": 4, "type": "empty"},
+      {"col": 5, "type": "total_formula", "formula": "SUM(B{row}:E{row})"},
+      {"col": 6, "type": "grade_formula", "formula": "IF(ISBLANK(F{row}),\"\",IF(F{row}<44,\"Fail\",IF(F{row}<=63,\"Pass\",\"Pass +\")))"}
+    ]
+  }
+}

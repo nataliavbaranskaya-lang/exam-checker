@@ -1,0 +1,9 @@
+{
+  "description": "Default alternating row styles for numeric columns in analysis spreadsheets",
+  "columns": {
+    "0": {
+      "font": {"height": 200, "bold": 0},
+      "borders": {"left": 1, "right": 1, "top": 1, "bottom": 1}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "demo_sheet_001",
+    "surname": "Smith",
+    "name": "Alex",
+    "repl": { "3": "SIXTH" },
+    "a": {
+      "1": "TWENTYSEVEN",
+      "2": "BEACH",
+      "3": "SIX",
+      "4": "SNACKS",
+      "5": "FIVE",
+      "6": "1",
+      "7": "2",
+      "8": "2",
+      "9": "1",
+      "10": "2"
+    }
+  },
+  {
+    "file": "demo_sheet_002",
+    "surname": "Johnson",
+    "name": "Maria",
+    "repl": {},
+    "a": {
+      "1": "TWENTYSIX",
+      "2": "BEACH",
+      "3": "SIX",
+      "4": "LUNCH",
+      "5": "FIVE",
+      "6": "2",
+      "7": "2",
+      "8": "1",
+      "9": "1",
+      "10": "2"
+    }
+  }
+]
